@@ -238,30 +238,19 @@
     source-map-js "^1.0.1"
     yaml-eslint-parser "^0.3.2"
 
-"@intlify/core-base@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/core-base/-/core-base-9.1.10.tgz"
+"@intlify/core-base@9.14.5":
+  version "9.14.5"
+  resolved "https://registry.yarnpkg.com/@intlify/core-base/-/core-base-9.14.5.tgz#cfed631e98b34f4f6fe1312e6c02dd8ace180197"
   dependencies:
-    "@intlify/devtools-if" "9.1.10"
-    "@intlify/message-compiler" "9.1.10"
-    "@intlify/message-resolver" "9.1.10"
-    "@intlify/runtime" "9.1.10"
-    "@intlify/shared" "9.1.10"
-    "@intlify/vue-devtools" "9.1.10"
+    "@intlify/message-compiler" "9.14.5"
+    "@intlify/shared" "9.14.5"
 
-"@intlify/devtools-if@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/devtools-if/-/devtools-if-9.1.10.tgz"
+"@intlify/message-compiler@9.14.5":
+  version "9.14.5"
+  resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.14.5.tgz#03b0a358c93cb2eed95936531c8a5871fd3841b0"
   dependencies:
-    "@intlify/shared" "9.1.10"
-
-"@intlify/message-compiler@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/message-compiler/-/message-compiler-9.1.10.tgz"
-  dependencies:
-    "@intlify/message-resolver" "9.1.10"
-    "@intlify/shared" "9.1.10"
-    source-map "0.6.1"
+    "@intlify/shared" "9.14.5"
+    source-map-js "^1.0.2"
 
 "@intlify/message-compiler@9.3.0-beta.24":
   version "9.3.0-beta.24"
@@ -270,21 +259,9 @@
     "@intlify/shared" "9.3.0-beta.24"
     source-map-js "^1.0.2"
 
-"@intlify/message-resolver@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/message-resolver/-/message-resolver-9.1.10.tgz"
-
-"@intlify/runtime@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/runtime/-/runtime-9.1.10.tgz"
-  dependencies:
-    "@intlify/message-compiler" "9.1.10"
-    "@intlify/message-resolver" "9.1.10"
-    "@intlify/shared" "9.1.10"
-
-"@intlify/shared@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/shared/-/shared-9.1.10.tgz"
+"@intlify/shared@9.14.5":
+  version "9.14.5"
+  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.14.5.tgz#2e42193b8356db20ee28c15d1ee6c8f0fda6c0b9"
 
 "@intlify/shared@9.3.0-beta.24":
   version "9.3.0-beta.24"
@@ -306,14 +283,6 @@
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
     unplugin "^1.1.0"
-
-"@intlify/vue-devtools@9.1.10":
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/@intlify/vue-devtools/-/vue-devtools-9.1.10.tgz"
-  dependencies:
-    "@intlify/message-resolver" "9.1.10"
-    "@intlify/runtime" "9.1.10"
-    "@intlify/shared" "9.1.10"
 
 "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
@@ -813,7 +782,7 @@
     "@vue/compiler-dom" "3.3.4"
     "@vue/shared" "3.3.4"
 
-"@vue/devtools-api@^6.0.0-beta.7", "@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.5.0":
+"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.5.0":
   version "6.5.0"
   resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.0.tgz"
 
@@ -3279,13 +3248,13 @@ slice-ansi@^5.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
 
-source-map@0.6.1, source-map@^0.6.1, source-map@~0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
-
 source-map@^0.5.6:
   version "0.5.7"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
+
+source-map@^0.6.1, source-map@~0.6.1:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
 
 source-map@~0.1.30:
   version "0.1.43"
@@ -3604,14 +3573,13 @@ vue-eslint-parser@^8.0.0, vue-eslint-parser@^8.0.1, vue-eslint-parser@^8.3.0:
     lodash "^4.17.21"
     semver "^7.3.5"
 
-vue-i18n@^9.1.10:
-  version "9.1.10"
-  resolved "https://registry.npmjs.org/vue-i18n/-/vue-i18n-9.1.10.tgz"
+vue-i18n@^9.14.5:
+  version "9.14.5"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.14.5.tgz#72fbf4384b83a1c59ec9e01ff5d30224bd9150cf"
   dependencies:
-    "@intlify/core-base" "9.1.10"
-    "@intlify/shared" "9.1.10"
-    "@intlify/vue-devtools" "9.1.10"
-    "@vue/devtools-api" "^6.0.0-beta.7"
+    "@intlify/core-base" "9.14.5"
+    "@intlify/shared" "9.14.5"
+    "@vue/devtools-api" "^6.5.0"
 
 vue-router@^4.1.0, vue-router@^4.2.4:
   version "4.2.4"
